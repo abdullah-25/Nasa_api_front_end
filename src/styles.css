@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+.image {
+  height: 350px;
+  width: 350px;
+}
+.name {
+  margin: 60px 0px;
+  color: #fff;
+  font-size: 14px;
+}
+.explanation {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+}
+.sub-title {
+  margin: 25px 0px;
+  color: white;
+  font-size: 10px;
+}
+.caption {
+  margin: 10px 0px;
+  color: white;
+  font-size: 12px;
+}
+.like-button {
+  margin: 30px 0px;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
